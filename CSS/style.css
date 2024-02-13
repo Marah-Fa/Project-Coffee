@@ -1,0 +1,339 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+ background-color: rgb(254, 239, 180);
+/* background:linear-gradient(to right,rgb(255, 255, 255),rgb(254, 239, 180)) ; */
+color: rgba(92, 48, 15, 0.968);
+box-shadow: 5px 5px 10px  black;
+font-family: cursive;
+}
+header .alink{
+    text-decoration: none; 
+    color: rgb(110, 50, 4);
+}
+
+
+
+header .alink:hover{
+    padding: 5px;
+    border: 1px solid rgb(222, 123, 16);
+    color: rgb(222, 123, 16);
+}
+
+.logo img{
+    padding: 5px;
+    width: 70px;
+    height: 65px;
+    border-radius:35% ;
+    border: 1px solid  rgb(254, 239, 180);
+    cursor: pointer;
+}
+ 
+.container{
+    
+    height: 77vh;
+    background-size: 100% 100%;
+    
+}
+
+.home-page{
+    height: 80vh;
+    /* background-color: rgb(254, 239, 180); */
+    background:linear-gradient(to right,rgba(194, 108, 39, 0.951),rgba(104, 61, 25, 0.967)) ;
+    background-size: 100% 100%;
+    padding: 5px;
+    
+}
+.carousel-inner{
+    height: 74vh; 
+    background-size: 100% 100%;
+}
+
+.carousel-indicators{
+    height: -80vh;
+    background-size: 100% 100%;
+}
+
+.carousel-item img{  
+    height: 80vh;
+    background-size: 100% 100%;
+    border: 1px solid rgba(20, 7, 7, 0.881);
+    border-radius:20px ;
+}
+
+.pragrafe{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    background-color: rgba(194, 108, 39, 0.951);
+    color: rgba(255, 255, 255, 0.905);
+    padding: 5px;
+    font-family:cursive;
+    display: flex;
+    border: 0.99px solid  rgba(0, 0, 0, 0.855);
+    border-radius:20px ;
+}
+
+.pragrafe img{
+width: 70px;
+height: 70px;
+border-radius:35% ;
+border: 1px solid  rgba(194, 108, 39, 0.951);
+cursor: pointer;
+padding: 5px;
+}
+
+.pragrafe h1{
+    padding: 5px;
+}
+
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    background:linear-gradient(to right,rgba(104, 61, 25, 0.967), rgba(66, 38, 15, 0.967))  ;
+}
+
+
+.sec1 .latte{
+    background-image: url(../image/caffee\ latte.jpg);
+    width: 800px;
+    height: 533px;
+    background-size: 100% 100%;
+}
+
+.sec1 .cold{
+    background-image: url(../image/coffee\ code.jpg);
+    width: 719px;
+    height: 533px;
+    background-size: 100% 100%;
+
+}
+
+.sec1 .Torky{
+    background-image: url(../image/coffee\ Torky.jpeg);
+    width: 850px;
+    height: 567px;
+    background-size: 100% 100%;
+
+}
+
+.sec1 .black{
+    background-image: url(../image/black\ coffee.jpg);
+    width: 669px;
+    height: 567px;
+    background-size: 100% 100%;
+
+}
+
+.sec1 .nescafe{
+    background-image: url(../image/nescafeeee.jpg);
+    width: 737px;
+    height: 555px;
+    background-size: 100% 100%;
+
+}
+
+.sec1 .hotchoclate1{
+    background-image: url(../image/hotchoclate1.jpeg);
+    width: 782px;
+    height: 555px;
+    background-size: 100% 100%;
+
+}
+
+.sec1 .info {
+    background-color: rgba(211, 194, 194, 0.625);
+    padding: 15px;
+    
+
+}
+
+.sec1 .image:hover{
+    box-shadow: 10px 10px 10px 10px  black;
+    cursor: pointer;
+}
+
+.sec2{
+    height: 50vh;
+    padding: 30px;
+    /* background-color: rgba(133, 80, 36, 0.967); */
+    background:linear-gradient(to right,rgb(206, 155, 97),rgba(104, 61, 25, 0.967)) ;
+    color: white;
+}
+
+
+.sec2 h1{
+    width: 300px;
+padding: 15px;
+border-bottom: 1px solid white;
+
+}
+.sec2 p{
+    padding: 15px;
+    
+}
+.sec2 button{
+    padding: 10px;
+    border: 1px solid rgb(255, 241, 241);
+    background-color: rgb(206, 155, 97) ; 
+    color: white;
+}
+
+.sec2 button:hover{
+color:   rgb(216, 190, 85);
+border-color:  rgb(216, 190, 85) ;
+}
+
+.sec3{
+    display:flex;
+    height: 90vh;
+    /* background-color: rgba(66, 38, 15, 0.967); */
+    background:linear-gradient(to right,rgba(104, 61, 25, 0.967), rgba(66, 38, 15, 0.967)) ;
+    color:white;
+    padding: 10px;
+   
+}
+
+.sec3 .logen{
+    padding: 15px;
+    border-right: 0.5px solid rgba(255, 255, 255, 0.804);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.804);
+    height: 85vh;
+}
+.logen .email{
+    position: absolute;
+    left: 370px;
+
+}
+
+.logen .inputemail{
+    position: absolute;
+    left: 370px;
+}
+
+.logen .username{
+    padding: 5px ;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.logen .message{
+    padding: 5px 5px 0px 5px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logen textarea{
+    padding: 5px;
+}
+.logen label{
+    padding: 15px;
+    font-size: x-large;
+}
+
+.logen button{
+    padding: 10px;
+    width: 150px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+
+.logen .reset{
+    background-color: rgba(104, 61, 25, 0.967) ;
+    color: white;
+}
+
+.logen .reset{
+border:1px solid white;
+}
+
+.logen .reset:hover{
+    color:rgb(216, 190, 85) ;
+    border-color: rgb(216, 190, 85) ;
+}
+.logen .submit:hover{
+    background-color:  rgb(216, 190, 85) ;
+}
+.comm{
+   
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.comm .email{
+    height: 28vh; 
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.804);
+    padding: 30px;
+}
+
+.comm a{
+text-decoration: none;
+color: lightgrey;
+}
+
+.comm .phone{
+    height: 28vh;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.804);
+    padding: 30px;
+}
+
+.comm .address{
+    height: 29vh;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.804);
+    padding: 30px;
+}
+
+footer{
+    height: 16vh;
+    background:linear-gradient(to right, rgba(66, 38, 15, 0.967),rgb(30, 13, 5)) ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .social{
+    padding: 15px;
+    margin-left: 15px;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:wheat;
+}
+.social div{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+.social div:hover{
+    border: 0.5px solid rgba(245, 222, 179, 0.749);
+    border-radius: 40%;
+}
+
+footer nav{
+   text-align: center;
+    font-size: medium;
+    color: rgba(245, 222, 179, 0.749);
+}
+
+a{
+text-decoration:dashed ;
+}
